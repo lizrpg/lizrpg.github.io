@@ -1,0 +1,201 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    background-attachment: fixed;
+    color: black;
+    height: 100%;
+    margin: 0;
+  
+}
+
+h1 {
+  font-family: "Metamorphous", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+p {
+  font-family: "Libre Caslon Text", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.libre-caslon-text-bold {
+  font-family: "Libre Caslon Text", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.libre-caslon-text-regular-italic {
+  font-family: "Libre Caslon Text", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  background-image: url('Marafabula/maraimages/parchment.png');
+  max-width: 728px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  box-shadow: red 0px 3px 8px;
+  
+}
+
+
+
+/* Add some padding inside the card container */
+.container {
+  padding: 2px 16px;
+}
+
+.card p {
+    color: white;
+    margin: 20px;
+   
+}
+
+.card h1 {
+    color: white;
+    padding: 15px;
+}
+
+.cardrow {
+  display: flex;
+  padding-bottom: 20px;
+}
+
+.cardcolumn {
+  flex: 100%;
+}
+
+.card img {
+    max-width: 100%;
+    margin: 10px;
+}
+
+.title {
+    display: flex;
+}
+
+.title h1 {
+    float: left;
+}
+
+.title img {
+    float: right;
+    width: 30px;
+    height:30px;
+    margin: 20px;
+}
+
+.banner {
+    margin:auto;
+}
+
+.banner img {
+    margin: auto;
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.writebox {
+            display: block;
+            position: relative;
+            background-color: black;
+            padding-left: 50px;
+            padding-right: 50px;
+            padding-top: 1.5em;
+            padding-bottom: 1.5em;
+            width: 728px;
+            height: auto;
+            margin: auto;
+            margin-bottom: 20px;
+            box-shadow: red 0px 3px 8px;
+            margin-top: 20px;
+            
+            }
+
+
+.writecontainer {
+  padding-top: 20px;
+  
+}
+
+.writecontainer h1 {
+    font-family: "Metamorphous", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  font-size: 3em;
+}
+        
+.writecontainer p {
+            
+            padding-left:15px;
+            padding-top: 15px;
+            font-family: "Libre Caslon Text", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+            
+}
+
+
+.writecontainer img {
+    max-width: 100%;
+    padding: 10px;
+}
+
+
+
+
+
+
+.closing {
+display: flex;
+    padding: 30px;
+}
+
+.closing img {
+border-radius: 50%;
+max-width: 150px;
+height: 150px;
+}
+
+.closing h1 {
+   padding-top: 25px;
+    padding-left: 15px;
+}
+
+h2 {
+    padding: 5px;
+    font-family: "Metamorphous", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  font-size: 1.5em;
+}

@@ -433,7 +433,7 @@ ul li:hover > ul {
             position: relative;
             background-color: #fff;
             padding: 50px;
-            width: 60%;
+            width: 100%;
             height: auto;
             margin: auto;
             border-radius: 20px;
@@ -462,6 +462,7 @@ ul li:hover > ul {
     border-radius: 10%;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     max-width: 100%;
+    
    
 }
 
@@ -631,6 +632,16 @@ text-shadow: 3px 3px 3px #000000;
     
   }
   
+
+
+
+
+
+
+
+
+
+
 
   
 }
